@@ -14,6 +14,10 @@ config/name="Cozy Farmer Life"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+DialogManager="*res://Scripts/DialogManager.gd"
+
 [input]
 
 Up={

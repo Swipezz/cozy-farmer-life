@@ -231,6 +231,7 @@ parameters/Run/blend_position = Vector2(0, 0)
 
 [node name="PlayerMovement" type="Node2D" parent="."]
 script = ExtResource("3_gnxp7")
+speed = 100.0
 
 [node name="PlayerAnimation" type="Node2D" parent="." node_paths=PackedStringArray("animationTree")]
 script = ExtResource("4_cp3mr")
