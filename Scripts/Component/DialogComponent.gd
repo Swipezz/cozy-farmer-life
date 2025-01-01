@@ -24,6 +24,7 @@ func startDialog(position : Vector2, lines : Array[String]):
 func _showTextBox():
 	textBox = textBoxScene.instantiate()
 	textBox.finishedDisplaying.connect(_onTextBoxFinishedDisplaying)
+	print(get_tree())
 	get_tree().root.add_child(textBox)
 	textBox.global_position = textBoxPosition
 	textBox.displayText(dialogLines[currentLineIndex])

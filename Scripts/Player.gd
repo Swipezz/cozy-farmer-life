@@ -17,8 +17,7 @@ func _physics_process(_delta: float) -> void:
     movement.SetDirection(direction.normalized())
 
     if Input.is_action_just_pressed("Chat"):
-        print(get_parent())
-        DialogManager.startDialog(global_position, listText)
+        DialogComponent.startDialog(global_position, listText)
 
 
 func sendChat():

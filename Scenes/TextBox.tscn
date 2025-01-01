@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://ce3ykqfelim4n"]
+[gd_scene load_steps=4 format=3 uid="uid://ryfjhigpnnxk"]
 
 [ext_resource type="Script" path="res://Scripts/TextBox.gd" id="1_1jnj1"]
 [ext_resource type="Texture2D" uid="uid://b2qa6t145ntwa" path="res://Assets/chatBG.png" id="1_k6lkb"]

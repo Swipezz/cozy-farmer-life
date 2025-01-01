@@ -16,7 +16,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-DialogManager="*res://Scripts/DialogManager.gd"
+DialogComponent="*res://Scripts/Component/DialogComponent.gd"
 
 [input]
 
